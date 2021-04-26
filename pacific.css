@@ -110,7 +110,6 @@ td {
 }
 
 tr:nth-child(even) {background-color: #F5FAFC)}
-
 @media only screen and (max-width: 64em) {
 	body { margin: 0;
 	      background-color: #FFFFFF; }
