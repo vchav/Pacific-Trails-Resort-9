@@ -14,27 +14,6 @@ body { background-color: #B8DBED;
           background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3); 
 		  border: 1px solid #000033;
 }
-
-table {
-    align-content: center;    
-    width: 90%;
-    border-collapse: collapse;
-}
-
-table, th, td {
-    padding:5px;
-    border: 1px solid lightblue;
-  }
-
-td {
-    text-align: center;
-}
-
-#text {
-    text-align: left;
-}
-
-tr:nth-child(even) {background-color: rgb(82, 186, 228)}
 header { background-color: #000033;
       color: #FFFFFF; 
       height: 120px;
@@ -111,6 +90,26 @@ dt { color: #000033; }
 #contact { font-size: 90%; }
 #mobile { display: none; }
 #desktop { display: inline; }
+table {
+    align-content: center;    
+    width: 90%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    padding:0.5px;
+    border: 2px solid #3399CC;
+  }
+
+td {
+    text-align: center;
+}
+
+#text {
+    text-align: left;
+}
+
+tr:nth-child(even) {background-color: #F5FAFC)}
 
 @media only screen and (max-width: 64em) {
 	body { margin: 0;
